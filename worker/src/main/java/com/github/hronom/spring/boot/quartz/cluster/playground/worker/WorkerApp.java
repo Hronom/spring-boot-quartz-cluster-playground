@@ -1,11 +1,11 @@
-package com.github.hronom.spring.boot.quartz.cluster.playground;
+package com.github.hronom.spring.boot.quartz.cluster.playground.worker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SupervisorApp {
+public class WorkerApp {
     public static void main(String[] args) {
-        SpringApplication.run(SupervisorApp.class, args);
+        SpringApplication.run(WorkerApp.class, args);
     }
 }
